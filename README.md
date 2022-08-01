@@ -1,5 +1,11 @@
 # Mastering Vim
 
+Vim cheatsheet for you to master vim.
+
+> The mindmap  version for the cheatsheet is also offered.
+
+
+
 ## Movement
 
 ### 字符移动
@@ -94,13 +100,13 @@
 
 * Search
   
-  *  `*`,`#`: 查找当前光标所在词的位置并标记
+  * `*`,`#`: 查找当前光标所在词的位置并标记
   
   * `f - x:` 移动到下一个x字符位置
   
   * `/xxx` : 查找xxx字符
   
-  *  `?xxx` : 反向查找xxx字符
+  * `?xxx` : 反向查找xxx字符
   
   * `n` / `N` : 下一个/上一个搜索结果
 
@@ -112,15 +118,13 @@
 
 * `:vimgrep /pattern/ {file} `： 在多个文件中搜索pattern
 
-*  `:cn` / `:cp` ： 移动到下一个/上一个匹配位置
+* `:cn` / `:cp` ： 移动到下一个/上一个匹配位置
 
 * `:copen `: 打开一个新窗口，并且显示所有匹配的内容
 
 ## 
 
 ----
-
-
 
 ## Mode
 
@@ -213,8 +217,6 @@
 - `R`
   
   - 进入替换模式
-
-
 
 ---
 
@@ -324,11 +326,7 @@
   
   - redo
 
-
-
 ---
-
-
 
 ## Windows
 
@@ -350,8 +348,6 @@
 
 ---
 
-
-
 ## Multiple files
 
 * `:e file` : 在buffer中编辑文件
@@ -369,8 +365,6 @@
 ## 
 
 ---
-
-
 
 ## Tabs
 
@@ -394,17 +388,9 @@
   
   * 例： 关闭所有已经打开的tabs  `:tabo q` 
 
-
-
-
-
-
-
 ---
 
 ## Reference resources
-
-
 
 1. https://github.com/wsdjeg/vim-galore-zh_cn
 
